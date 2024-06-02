@@ -24,8 +24,8 @@ classDiagram
     Builder <|-- ConcreteBuilder
     ConcreteBuilder --> Product
 ```
-##2.Front Controller
-###Призначення
+## 2.Front Controller
+### Призначення
 Шаблон Front Controller використовується для централізованого керування обробкою запитів у веб-додатках.
 ### UML-диаграмма
 ```mermaid
@@ -46,8 +46,8 @@ classDiagram
     Dispatcher --> HomeView
     Dispatcher --> StudentView
 ```
-##3. Command
-###Призначення
+## 3. Command
+### Призначення
 Шаблон "Command" перетворює запити на об'єкти, дозволяючи передавати їх як параметри методу
 ### UML-диаграмма
 ```mermaid
@@ -75,8 +75,8 @@ classDiagram
     LightOffCommand --> Light
     RemoteControl --> ICommand
 ```
-##4. Readers-writer lock
-###Призначення
+## 4. Readers-writer lock
+### Призначення
 Шаблон "Readers-writer lock" використовується для управління доступом до ресурсу, який може читати багато потоків одночасно, але писати в нього може тільки один потік.
 ### UML-диаграмма
 ```mermaid
